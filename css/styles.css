@@ -620,7 +620,8 @@ button .portfolio-mark:focus {
 
 .portfolio-img {
     display: block;
-    margin: 0;
+    margin: -3px;
+
 }
 
 .portfoliotext {
