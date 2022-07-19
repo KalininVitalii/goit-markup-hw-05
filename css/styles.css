@@ -618,11 +618,17 @@ button .portfolio-mark:focus {
     overflow: hidden;
 }
 
+.portfolio-img {
+    display: block;
+    margin: 0;
+}
+
 .portfoliotext {
-    transform: translatey(107%);
+    transform: translatey(100%);
     background: rgba(33, 150, 243, 0.9);
     position: absolute;
     bottom: 0;
+    margin: 0;
     left: 0;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--white-text-color);
@@ -635,7 +641,7 @@ button .portfolio-mark:focus {
 }
 
 .portfolio-flex:hover .portfoliotext {
-    transform: translatey(7%);
+    transform: translatey(0);
 }
 
 .portfolio-flex:nth-child(3n) {
